@@ -10,7 +10,7 @@
 
     <packaging>jar</packaging>
 
-    <name>PvPBot</name>
+    <name>AppToBot</name>
 
     <description>Amazing pvp bots plugin</description>
     <properties>
@@ -48,7 +48,7 @@
         </plugins>
         <resources>
             <resource>
-                <directory>src/main/resources</directory>
+                <directory>src/main</directory>
                 <filtering>true</filtering>
             </resource>
         </resources>
