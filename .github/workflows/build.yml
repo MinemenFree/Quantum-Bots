@@ -30,4 +30,4 @@ jobs:
       if: success()
       with:
           name: BotPractice
-          path: target/
+          path: build/libs
