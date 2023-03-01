@@ -99,12 +99,12 @@ public class DataPresets {
             lore.add(" &c[-] &fRight Click &c(To delete)");
             lore.add("&4&m--*------------------------*--");
             this.gui.createGuiItemUsingName(manager.getSkullItem("crafticat", true), slot, "&b&l" + manager.getBotName().replace("%player%", "crafticat"), (), (), lore);
-            if (slot++ >= 26)
+          if (slot++ >= 26)
               break; 
           } 
           this.gui.createGuiItem(new ItemStack(Material.STONE), 26, "&a&lCreate new Preset", (), new String[0]);
           this.gui.setBackGroundColor(15);
-        });
+        } -> );
   }
   
   public SettingGui getPreset() {
